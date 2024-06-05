@@ -1,0 +1,30 @@
+@media screen and (orientation: landscape) {
+    .carousel img {
+      height: 100vh;
+    }
+  }
+
+  .carousel-overlay {
+    background-color: rgba(0, 0, 0, 0.605); /* Adjust the opacity as needed */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    padding: 10px;
+    text-align: center;
+}
+
+.overlay p {
+    margin-bottom: 0; /* Remove default margin */
+}
+
+@media  screen and (max-width: 768px) {
+    .carousel img {
+      height: auto;
+    }
+  
+}
